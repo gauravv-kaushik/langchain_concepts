@@ -21,7 +21,7 @@ parser = StrOutputParser()
 
 chain = prompt | model | parser
 
-loader = TextLoader('cricket.txt', encoding='utf-8')
+loader = TextLoader('../Files/cricket.txt', encoding='utf-8')
 
 docs = loader.load()
 

@@ -1,7 +1,7 @@
-from langchain_community.document_loaders import PyPDFLoader,PDFPlumberLoader, UnstructuredPDFLoader, AmazonTextractPDFLoader, PyMuPDFLoader
+from langchain_community.document_loaders import PyPDFLoader, PDFPlumberLoader, UnstructuredPDFLoader, AmazonTextractPDFLoader, PyMuPDFLoader
 
 
-loader = PyPDFLoader('GauravPythonDev_FTE.pdf')
+loader = PyPDFLoader('../Files/GauravPythonDev_FTE.pdf')
 
 docs = loader.load()
 

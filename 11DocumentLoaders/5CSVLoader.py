@@ -20,7 +20,7 @@ prompt = PromptTemplate(
 parser = StrOutputParser()
 
 
-loader = CSVLoader(file_path='students.csv')
+loader = CSVLoader(file_path='../Files/students.csv')
 
 docs = loader.load()
 

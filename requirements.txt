@@ -16,11 +16,13 @@ chromadb==1.5.5
 click==8.3.1
 cryptography==46.0.5
 dataclasses-json==0.6.7
+defusedxml==0.7.1
 distro==1.9.0
 dnspython==2.8.0
 docstring_parser==0.17.0
 durationpy==0.10
 email-validator==2.3.0
+faiss-cpu==1.13.2
 filelock==3.24.3
 filetype==1.2.0
 flatbuffers==25.12.19
@@ -156,5 +158,6 @@ websockets==15.0.1
 wikipedia==1.4.0
 xxhash==3.6.0
 yarl==1.22.0
+youtube-transcript-api==1.2.4
 zipp==3.23.0
 zstandard==0.25.0
